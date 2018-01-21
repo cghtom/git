@@ -1,0 +1,27 @@
+回滚到某一版本号
+git reset --hard commit-id :回滚到commit-id，讲commit-id之后提交的commit都去除
+
+git reset --hard HEAD~3：将最近3次的提交回滚
+
+备份：
+git branch test2_bak
+
+1git checkout test2_bak 2git push == git push origin test2_bak
+
+
+备份回滚步骤：
+1、git checkout test2
+
+2、git pull
+
+3、git branch test2_bak  //备份当前分支
+
+4、git reset --hard 65d5d42  //回滚当前分支到the_commit_id  （打开版本记录，github:Compare&pull request）
+
+5、git push origin :test2 //删除远程 test 或（git push origin --delete test） 空格: == --delete 
+
+6、git push origin test2 //用回滚后的本地分支重新建立分支test2
+
+7、git push origin :test2_bak //如果前面都成功了，删除这个远程备份分支
+   然后删除本地的备份分支: git branch -D test2_bak
+
