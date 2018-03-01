@@ -13,4 +13,13 @@
     2.2  删除raindow文件夹及其下所有的文件 :git rm raindow -r -f 
     2.3  同步删除操作到远程分支：git commit -m "delete raindow"
 
-           提交分支:git push origin master /git push
+           
+3,新建分支
+    git branch test2
+
+
+4,提交分支:
+    git push origin master 
+    git push
+    git push origin test2
+
