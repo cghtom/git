@@ -25,3 +25,5 @@ git branch test2_bak
 7、git push origin :test2_bak //如果前面都成功了，删除这个远程备份分支
    然后删除本地的备份分支: git branch -D test2_bak
 
+svn 某个文件标记为合并
+ update /xxx/xxx/xx.html -r HEAD --force
