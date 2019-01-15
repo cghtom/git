@@ -8,3 +8,5 @@ git 常用的命令
 
 git技术栈摘自：
 https://mp.weixin.qq.com/s/vurPO6X5dHMcvA5dks5nJA
+zookeeper技术栈：
+https://mp.weixin.qq.com/s/5APHlfBgNIwrIUPaPjw6qQ
