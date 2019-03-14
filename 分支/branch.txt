@@ -23,3 +23,12 @@
     git push
     git push origin test2
 
+
+5,本地代码没有开发完成，又不想提交到线上，可以储藏当前分支，当前分支会成干净分支
+
+储藏当前分支
+git stash
+查看当前储藏的分支
+git stash list
+合并缓存的分支到当前分支
+git stash apply
